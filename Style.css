@@ -1,0 +1,76 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blaster - Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blaster</h1>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Cadastrar</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bem-vindo ao Blaster!</h2>
+    <p>Prepare-se para uma aventura explosiva no espaço. Enfrente inimigos, desvie de meteoros e salve a galáxia!</p>
+    <p><strong>Faça login ou crie sua conta para fazer o download do jogo.</strong></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blaster. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav a {
+  color: #00ffcc;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #888;
+}
